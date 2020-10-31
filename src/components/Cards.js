@@ -6,7 +6,7 @@ let Cards = (props) => {
     return (
         <div className={style.card}>
             <div className={style.card_image}>
-                <img src={props.photo} alt="clean-code"/>
+                <img src={props.photo} alt="bad connection..."/>
             </div>
             <CardsInfo author={props.author} nameBook={props.nameBook}/>
         </div>
