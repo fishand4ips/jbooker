@@ -1,24 +1,18 @@
 import './App.css';
 import React from "react";
-import Cards from "./components/Cards";
 import {store} from "./book-info"
+import {MyDocument} from "./components/MyDocument";
+import {Route, Switch} from "react-router-dom";
+import {CollectionCards} from "./components/CollectionCards";
 
 function App() {
     return (
         <div className="App">
             <header className="App-header">
-                <Cards nameBook={store.name.CLEAN_CODE} author={store.author.Martin} photo={store.images.cleanCode}/>
-                <Cards nameBook={store.name.ROCKING_ALGORITHMS} author={store.author.Aditya_Bhargava} photo={store.images.rockingAlgorithms}/>
-                <Cards nameBook={store.name.SCHILDT_BEGINNER} author={store.author.Herbert_Schildt} photo={store.images.schildt_beginner}/>
-                <Cards nameBook={store.name.CLEAN_CODE} author={store.author.Martin}/>
-                <Cards nameBook={store.name.CLEAN_CODE} author={store.author.Martin}/>
-                <Cards nameBook={store.name.CLEAN_CODE} author={store.author.Martin}/>
-                <Cards nameBook={store.name.CLEAN_CODE} author={store.author.Martin}/>
-                <Cards nameBook={store.name.CLEAN_CODE} author={store.author.Martin}/>
-                <Cards nameBook={store.name.CLEAN_CODE} author={store.author.Martin}/>
-                <Cards nameBook={store.name.CLEAN_CODE} author={store.author.Martin}/>
-                <Cards nameBook={store.name.CLEAN_CODE} author={store.author.Martin}/>
-                <Cards nameBook={store.name.CLEAN_CODE} author={store.author.Martin}/>
+                <Switch>
+                    <Route path='/preview' render={() => <MyDocument/>}/>
+                    <Route path='/' render={() => <CollectionCards store={store}/>}/>
+                </Switch>
             </header>
         </div>
     );

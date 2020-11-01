@@ -4,8 +4,8 @@ import React from "react";
 export let CardsInfo = (props) => {
     return (
         <div className={style.card_title}>
-            <h1>{props.author}</h1>
-            <p>{props.nameBook}</p>
+            <h3>{props.nameBook}</h3>
+            <p>{props.author}</p>
         </div>
     )
 };
