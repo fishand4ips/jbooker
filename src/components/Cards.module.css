@@ -49,6 +49,10 @@ img {
     transition: opacity .3s;
 }
 
+.btn_preview:hover {
+    background: #a03ede;
+}
+
 .btn_preview {
     opacity: 0;
     border-radius: 20px;
