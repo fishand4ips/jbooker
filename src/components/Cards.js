@@ -5,13 +5,20 @@ import {Link} from "react-router-dom";
 
 let Cards = (props) => {
     return (
-        <div className={style.card + " " + style.container}>
-            <Link to={props.bookInPdf} target="_blank" download>
-                <div className={style.card_image}>
-                    <img src={props.photo} alt="bad connection..."/>
-                    <button>Download</button>
+        <div className={style.card}>
+            <div className={style.card_image}>
+                <img src={props.photo} alt="bad connection..."/>
+                <a href={props.bookInPdf} target="_blank" download>
+                    <div>
+                        <button className={style.btn_download}>Download</button>
+                    </div>
+                </a>
+                <div>
+                    <Link to='/preview' target='_blank'>
+                        <button className={style.btn_preview}>Preview</button>
+                    </Link>
                 </div>
-            </Link>
+            </div>
             <CardsInfo author={props.author} nameBook={props.nameBook}/>
         </div>
     )

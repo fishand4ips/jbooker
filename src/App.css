@@ -13,9 +13,9 @@
   background-color: #282c34;
   min-height: 100vh;
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-  grid-gap: 85px;
-  padding: 85px;
+  grid-template-columns: repeat(5, 1fr);
+  grid-gap: 5.5vw;
+  padding: 5.5vw;
   font-size: calc(10px + 2vmin);
   color: white;
   justify-content: center;

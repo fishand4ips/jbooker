@@ -1,55 +1,58 @@
-@media all and (max-width: 500px) {
-    .card-list {
-        flex-direction: column;
-    }
+img {
+    height: 300px;
+    overflow: hidden;
 }
 
-.cards-list {
-    z-index: 0;
-    width: 100%;
-    display: flex;
-    justify-content: space-around;
-    flex-wrap: wrap;
-}
-
-.card {
-
-}
-
-.card .card_image img {
+.card .card_image {
     z-index: 0;
     object-fit: cover;
     border-radius: 20px;
     box-shadow: 5px 5px 30px 7px rgba(0, 0, 0, 0.25), -5px -5px 30px 7px rgba(0, 0, 0, 0.22);
     cursor: pointer;
     transition: 0.4s;
+    height: 300px;
+    width: 210px;
     overflow: hidden;
-    height: auto;
-    width: auto;
-    max-width: 300px;
-    max-height: 300px;
+    display: flex;
 }
 
-img:hover {
+.card .card_image:hover {
     transform: scale(0.97, 0.97);
     box-shadow: 2px 2px 8px 4px rgba(0, 0, 0, 0.25),
     -2px -2px -15px -4px rgba(0, 0, 0, 0.22);
 }
 
-.container {
+.card {
     position: relative;
     width: 100%;
     height: fit-content;
+    text-align: -webkit-center;
 }
 
-.container button {
+.btn_preview:hover .card_image, .btn_download:hover .card_image {
+    transform: scale(0.9, 0.9);
+    box-shadow: 2px 2px 8px 4px rgba(0, 0, 0, 0.25),
+    -2px -2px -15px -4px rgba(0, 0, 0, 0.22);
+}
+
+.card_image:hover .btn_download {
+    opacity: 1;
+    transition: opacity .3s;
+}
+
+.card_image:hover .btn_preview {
+    opacity: 1;
+    transition: opacity .3s;
+}
+
+.btn_preview {
     opacity: 0;
     border-radius: 20px;
     width: 90px;
-    height: 30px;
-    background: rgba(0, 0, 0, .3);
+    height: 25px;
+    background: rgba(40, 44, 52, .6);
     position: absolute;
-    top: 4%;
+    top: 15%;
     left: 50%;
     color: white;
     font-size: 15px;
@@ -58,17 +61,18 @@ img:hover {
     text-align: center;
 }
 
-/*.container button:hover {*/
-/*    transform: scale(0.9, 0.9);*/
-/*}*/
-
-button:hover .card_image {
-    transform: scale(0.9, 0.9);
-    box-shadow: 2px 2px 8px 4px rgba(0, 0, 0, 0.25),
-    -2px -2px -15px -4px rgba(0, 0, 0, 0.22);
-}
-
-.card_image:hover button {
-    opacity: 1;
-    transition: opacity .3s;
+.btn_download {
+    opacity: 0;
+    border-radius: 20px;
+    width: 90px;
+    height: 25px;
+    background: rgba(40, 44, 52, .9);
+    position: absolute;
+    top: 4%;
+    left: 50%;
+    color: white;
+    font-size: 15px;
+    border: none;
+    cursor: pointer;
+    text-align: center;
 }

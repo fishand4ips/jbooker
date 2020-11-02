@@ -2,7 +2,6 @@ import React from "react"
 import Cards from "./Cards";
 
 export const CollectionCards = (props) => {
-    let info = props.store;
     return (
         <>
             <Cards nameBook={props.store.name.CLEAN_CODE} author={props.store.author.Martin}
@@ -24,12 +23,16 @@ export const CollectionCards = (props) => {
                    photo={props.store.images.perfect_code} bookInPdf={props.store.bookInPdf.perfect_code_pdf}/>
             <Cards nameBook={props.store.name.LEARN_JAVA} author={props.store.author.Bates_and_Sera}
                    photo={props.store.images.learn_java} bookInPdf={props.store.bookInPdf.learn_java_pdf}/>
-            <Cards nameBook={props.store.name.OOP_PATTERNS_ARCHITECT} author={props.store.author.Gamma_Helm_Jonson_Vlissides}
-                    photo={props.store.images.oop_patterns_architect} bookInPdf={props.store.bookInPdf.oop_patterns_architect_pdf}/>
+            <Cards nameBook={props.store.name.OOP_PATTERNS_ARCHITECT}
+                   author={props.store.author.Gamma_Helm_Jonson_Vlissides}
+                   photo={props.store.images.oop_patterns_architect}
+                   bookInPdf={props.store.bookInPdf.oop_patterns_architect_pdf}/>
             <Cards nameBook={props.store.name.MAP_CULTURE_DIFF} author={props.store.author.Erin_Meer}
-                    photo={props.store.images.map_culture_diff}/>
+                   photo={props.store.images.map_culture_diff}/>
             <Cards nameBook={props.store.name.JUST_FOR_FUN} author={props.store.author.Linus_Diamond}
-                    photo={props.store.images.just_for_fun} bookInPdf={props.store.bookInPdf.just_for_fun_pdf}/>
+                   photo={props.store.images.just_for_fun} bookInPdf={props.store.bookInPdf.just_for_fun_pdf}/>
+            <Cards nameBook={props.store.name.OBJECT_THINKING} author={props.store.author.David_West}
+                   photo={props.store.images.object_thinking} bookInPdf={props.store.bookInPdf.object_thinking_pdf}/>
         </>
     )
 };
