@@ -42,6 +42,7 @@ img {
 
 .btn_download:hover {
     background: rebeccapurple;
+    border: double;
 }
 
 .card_image:hover .btn_preview {
@@ -51,6 +52,7 @@ img {
 
 .btn_preview:hover {
     background: #a03ede;
+    border: double;
 }
 
 .btn_preview {
@@ -83,4 +85,91 @@ img {
     border: none;
     cursor: pointer;
     text-align: center;
+}
+
+@media (max-width: 550px) {
+    .card .card_image {
+        height: 250px;
+        width: 175px;
+    }
+
+    img {
+        height: 250px;
+    }
+
+    .btn_download {
+        width: 75px;
+        height: 20px;
+        top: 3%;
+        font-size: 13px;
+    }
+
+    .btn_preview {
+        width: 75px;
+        height: 20px;
+        top: 14%;
+        font-size: 13px;
+    }
+}
+
+@media (max-width: 450px) {
+    .card .card_image {
+        height: 200px;
+        width: 140px;
+    }
+
+    img {
+        height: 200px;
+    }
+
+    h3 {
+        font-size: 14px;
+    }
+
+    .btn_download {
+        width: 66px;
+        height: 20px;
+        font-size: 12px;
+        top: 3%;
+        left: 47%;
+    }
+
+    .btn_preview {
+        width: 66px;
+        height: 20px;
+        font-size: 12px;
+        top: 16%;
+        left: 47%;
+    }
+}
+
+@media (max-width: 360px) {
+    .card .card_image {
+        height: 300px;
+        width: 210px;
+    }
+
+    img {
+        height: 300px;
+    }
+
+    h3 {
+        font-size: 14px;
+    }
+
+    .btn_download {
+        width: 90px;
+        height: 25px;
+        top: 4%;
+        left: 50%;
+        font-size: 15px;
+    }
+
+    .btn_preview {
+        width: 90px;
+        height: 25px;
+        top: 15%;
+        left: 50%;
+        font-size: 15px;
+    }
 }

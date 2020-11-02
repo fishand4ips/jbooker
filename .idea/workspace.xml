@@ -2,16 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="481c4b61-ce1e-4464-9e30-c9220686883f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/public/files/A_Smarter_Way_to_Learn_HTML_CSS.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/files/A_Smarter_Way_to_Learn_JS.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/img/smarter_way_html_css.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/img/smarter_way_js.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/book-info.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/book-info.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Cards.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Cards.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Cards.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Cards.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/CollectionCards.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/CollectionCards.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/CardsInfo.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/CardsInfo.module.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -89,7 +84,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1604063673084</updated>
-      <workItem from="1604063677556" duration="89333000" />
+      <workItem from="1604063677556" duration="91838000" />
     </task>
     <task id="LOCAL-00001" summary="start">
       <created>1604145128986</created>
@@ -126,7 +121,21 @@
       <option name="project" value="LOCAL" />
       <updated>1604332390594</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="add cards">
+      <created>1604337482920</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1604337482920</updated>
+    </task>
+    <task id="LOCAL-00007" summary="add cards">
+      <created>1604337706479</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1604337706479</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -137,7 +146,8 @@
     <MESSAGE value="start" />
     <MESSAGE value="add some books" />
     <MESSAGE value="-" />
-    <option name="LAST_COMMIT_MESSAGE" value="-" />
+    <MESSAGE value="add cards" />
+    <option name="LAST_COMMIT_MESSAGE" value="add cards" />
   </component>
   <component name="WindowStateProjectService">
     <state x="445" y="85" key="#ESLint" timestamp="1604222153248">
@@ -148,10 +158,10 @@
       <screen x="0" y="0" width="1600" height="860" />
     </state>
     <state x="530" y="177" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1600.860@0.0.1600.860" timestamp="1604223024941" />
-    <state x="478" y="21" key="CommitChangelistDialog2" timestamp="1604337478856">
+    <state x="478" y="21" key="CommitChangelistDialog2" timestamp="1604337704340">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state x="478" y="21" key="CommitChangelistDialog2/0.0.1600.860@0.0.1600.860" timestamp="1604337478855" />
+    <state x="478" y="21" key="CommitChangelistDialog2/0.0.1600.860@0.0.1600.860" timestamp="1604337704340" />
     <state x="723" y="320" key="Github.ShareDialog" timestamp="1604145436218">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
@@ -172,10 +182,10 @@
       <screen x="0" y="0" width="1600" height="860" />
     </state>
     <state width="1579" height="159" key="GridCell.Tab.0.right/0.0.1600.860@0.0.1600.860" timestamp="1604325935458" />
-    <state x="445" y="160" key="Vcs.Push.Dialog.v2" timestamp="1604337698640">
+    <state x="445" y="160" key="Vcs.Push.Dialog.v2" timestamp="1604337709168">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state x="445" y="160" key="Vcs.Push.Dialog.v2/0.0.1600.860@0.0.1600.860" timestamp="1604337698640" />
+    <state x="445" y="160" key="Vcs.Push.Dialog.v2/0.0.1600.860@0.0.1600.860" timestamp="1604337709168" />
     <state x="662" y="344" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1604145285804">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
