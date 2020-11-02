@@ -7,7 +7,7 @@ img {
     z-index: 0;
     object-fit: cover;
     border-radius: 20px;
-    box-shadow: 5px 5px 30px 7px rgba(0, 0, 0, 0.25), -5px -5px 30px 7px rgba(0, 0, 0, 0.22);
+    box-shadow: 5px 5px 30px 7px rgba(0, 0, 0, 0.22), -5px -5px 30px 7px rgba(0, 0, 0, 0.18);
     cursor: pointer;
     transition: 0.4s;
     height: 300px;
@@ -38,6 +38,10 @@ img {
 .card_image:hover .btn_download {
     opacity: 1;
     transition: opacity .3s;
+}
+
+.btn_download:hover {
+    background: rebeccapurple;
 }
 
 .card_image:hover .btn_preview {

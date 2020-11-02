@@ -14,6 +14,9 @@ export const CollectionCards = (props) => {
                    photo={props.store.images.patterny_proektirovaniya_head_first}/>
             <Cards nameBook={props.store.name.LEARN_SQL} author={props.store.author.Alan_Bule}
                    photo={props.store.images.learn_sql}/>
+            <Cards nameBook={props.store.name.SMARTER_WAY_HTML_CSS} author={props.store.author.Mark_Myers}
+                   photo={props.store.images.smarter_way_html_css}
+                   bookInPdf={props.store.bookInPdf.smarter_way_html_css_pdf}/>
             <Cards nameBook={props.store.name.ART_PROGRAMMING} author={props.store.author.Donald_Knut}
                    photo={props.store.images.art_programming}/>
             <Cards nameBook={props.store.name.EFFECTIVE_PROGRAMMING} author={props.store.author.Joshua_Bloch}
@@ -33,6 +36,9 @@ export const CollectionCards = (props) => {
                    photo={props.store.images.just_for_fun} bookInPdf={props.store.bookInPdf.just_for_fun_pdf}/>
             <Cards nameBook={props.store.name.OBJECT_THINKING} author={props.store.author.David_West}
                    photo={props.store.images.object_thinking} bookInPdf={props.store.bookInPdf.object_thinking_pdf}/>
+            <Cards nameBook={props.store.name.SMARTER_WAY_JS} author={props.store.author.Mark_Myers}
+                   photo={props.store.images.smarter_way_js}
+                   bookInPdf={props.store.bookInPdf.smarter_way_js_pdf}/>
         </>
     )
 };

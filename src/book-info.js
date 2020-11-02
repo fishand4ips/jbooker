@@ -11,6 +11,8 @@ import oop_patterns_architect from "./assets/img/oop_patterns_architect.jpg"
 import map_culture_diff from "./assets/img/map_culture_diff.jpg"
 import just_for_fun from "./assets/img/just_for_fun.png"
 import object_thinking from "./assets/img/object_thinking.jpg"
+import smarter_way_html_css from "./assets/img/smarter_way_html_css.jpg"
+import smarter_way_js from "./assets/img/smarter_way_js.jpg"
 
 export let store = {
     name: {
@@ -27,6 +29,9 @@ export let store = {
         MAP_CULTURE_DIFF: "Карта культурных различий",
         JUST_FOR_FUN: "Рассказ нечаянного революционера",
         OBJECT_THINKING: "Object Thinking",
+        SMARTER_WAY_HTML_CSS: "A Smarter Way to Learn HTML & CSS",
+        SMARTER_WAY_JS: "A Smarter Way to Learn JavaScript",
+
     },
     description: {
         d_CLEAN_CODE: "",
@@ -52,7 +57,7 @@ export let store = {
         Erin_Meer: "Эрин Мейер",
         Linus_Diamond: "Линус Торвальдс, Дэвид Даймонд",
         David_West: "David West",
-
+        Mark_Myers: "Mark Myers",
 
     },
     images: {
@@ -69,6 +74,8 @@ export let store = {
         map_culture_diff: map_culture_diff,
         just_for_fun: just_for_fun,
         object_thinking: object_thinking,
+        smarter_way_html_css: smarter_way_html_css,
+        smarter_way_js: smarter_way_js,
 
 
     },
@@ -80,6 +87,7 @@ export let store = {
         oop_patterns_architect_pdf: "/files/E_Gamma_R_Khelm_R_Dzhonson_Dzh_Vlissides_.pdf",
         just_for_fun_pdf: "/files/Линус_Торвальдс_Дэвид_Даймонд_Just_for_fun.pdf",
         object_thinking_pdf: "/files/west_david_object_thinking.pdf",
-
+        smarter_way_js_pdf: "/files/A_Smarter_Way_to_Learn_JS.pdf",
+        smarter_way_html_css_pdf: "/files/A_Smarter_Way_to_Learn_HTML_CSS.pdf"
     }
 };

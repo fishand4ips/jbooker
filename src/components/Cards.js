@@ -2,6 +2,7 @@ import React from "react";
 import style from "./Cards.module.css"
 import {CardsInfo} from "./CardsInfo"
 import {Link} from "react-router-dom";
+import {Image} from "@react-pdf/renderer";
 
 let Cards = (props) => {
     return (
