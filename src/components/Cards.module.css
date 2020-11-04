@@ -1,4 +1,4 @@
-img {
+.photo_books {
     height: 300px;
     overflow: hidden;
 }
@@ -43,7 +43,7 @@ img {
 
 .btn_download:hover {
     background: rebeccapurple;
-    border: double;
+    /*border: double;*/
 }
 
 .card_image:hover .btn_preview {
@@ -52,24 +52,26 @@ img {
 }
 
 .btn_preview:hover {
-    background: #a03ede;
-    border: double;
+    /*background: #a03ede;*/
+    /*border: double;*/
 }
 
 .btn_preview {
     opacity: 0;
-    border-radius: 20px;
-    width: 90px;
-    height: 25px;
-    background: rgba(40, 44, 52, .6);
+    filter: invert(26%) sepia(13%) saturate(6637%) hue-rotate(246deg) brightness(88%) contrast(96%);
+    /* border-radius: 20px; */
+    /* width: 90px; */
+    /* height: 25px; */
+    /* background: rgba(40, 44, 52, .6); */
+    color: #a03ede;
     position: absolute;
-    top: 15%;
-    left: 50%;
-    color: white;
-    font-size: 15px;
-    border: none;
+    top: 85%;
+    left: 79%;
+    /* color: white; */
+    /* font-size: 15px; */
+    /* border: none; */
     cursor: pointer;
-    text-align: center;
+    /* text-align: center; */
 }
 
 .btn_download {
@@ -77,9 +79,9 @@ img {
     border-radius: 20px;
     width: 90px;
     height: 25px;
-    background: rgba(40, 44, 52, .9);
+    background: rgba(40, 44, 52, 1);
     position: absolute;
-    top: 4%;
+    top: 5%;
     left: 50%;
     color: white;
     font-size: 15px;
@@ -94,7 +96,7 @@ img {
         width: 175px;
     }
 
-    img {
+    .photo_books {
         height: 250px;
     }
 
@@ -119,7 +121,7 @@ img {
         width: 140px;
     }
 
-    img {
+    .photo_books {
         height: 200px;
     }
 
@@ -150,7 +152,7 @@ img {
         width: 210px;
     }
 
-    img {
+    .photo_books {
         height: 300px;
     }
 
