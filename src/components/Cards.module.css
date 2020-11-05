@@ -42,7 +42,7 @@
 }
 
 .btn_download:hover {
-    background: rebeccapurple;
+    background: black;
     /*border: double;*/
 }
 
@@ -54,16 +54,17 @@
 .btn_preview:hover {
     /*background: #a03ede;*/
     /*border: double;*/
+    filter: invert(0%) sepia(0%) saturate(7500%) hue-rotate(42deg) brightness(97%) contrast(103%);
 }
 
 .btn_preview {
     opacity: 0;
-    filter: invert(26%) sepia(13%) saturate(6637%) hue-rotate(246deg) brightness(88%) contrast(96%);
+    filter: invert(15%) sepia(17%) saturate(3218%) hue-rotate(287deg) brightness(85%) contrast(113%);
     /* border-radius: 20px; */
     /* width: 90px; */
     /* height: 25px; */
     /* background: rgba(40, 44, 52, .6); */
-    color: #a03ede;
+    color: #440824;
     position: absolute;
     top: 85%;
     left: 79%;
@@ -79,7 +80,7 @@
     border-radius: 20px;
     width: 90px;
     height: 25px;
-    background: rgba(40, 44, 52, 1);
+    background: #440824;
     position: absolute;
     top: 5%;
     left: 50%;

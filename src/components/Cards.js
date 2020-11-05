@@ -16,7 +16,8 @@ let Cards = (props) => {
                 <div>
                     <Link to='/preview' target='_blank'>
                         <div className={style.btn_preview}>
-                            <img width="25px" height="25px"  src="https://www.flaticon.com/svg/static/icons/svg/3342/3342300.svg" alt=""/>
+                            <img width="25px" height="25px"
+                                 src="https://www.flaticon.com/svg/static/icons/svg/3342/3342300.svg" alt=""/>
                         </div>
                     </Link>
                 </div>

@@ -1,5 +1,6 @@
 .App-header {
-    background-color: #1D1E33;
+    /*background-color: #1D1E33;*/
+    background-color: #440824;
     min-height: 100vh;
     display: grid;
     grid-template-columns: repeat(5, 1fr);
