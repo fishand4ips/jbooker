@@ -111,7 +111,8 @@
     .btn_preview {
         width: 75px;
         height: 20px;
-        top: 14%;
+        top: 85%;
+        left: 62%;
         font-size: 13px;
     }
 }
@@ -172,8 +173,8 @@
     .btn_preview {
         width: 90px;
         height: 25px;
-        top: 15%;
-        left: 50%;
+        top: 86%;
+        left: 65%;
         font-size: 15px;
     }
 }
